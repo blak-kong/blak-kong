@@ -4,6 +4,11 @@
 <tr>
 <td valign="top" width="50%">
 
+右侧为最新博客文章。
+博客内容：
+从前端到大前端系列
+手写api系列
+设计模式与算法系列
 
 <!-- recent_releases starts -->
 
