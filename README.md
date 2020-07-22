@@ -25,7 +25,7 @@
 <!-- code_time starts -->
 
 ```text
-你好，世界！
+你好，我是blak-kong！喜欢折腾！
 ```
 
 <!-- code_time ends -->
