@@ -9,7 +9,7 @@
 :muscle: 从前端到大前端系列<br/>
 :pill: 手写api系列  <br/>
 :joy: 设计模式与算法系列  <br/>
-
+:thumbsup: 日常踩坑系列  <br/>
 <!-- recent_releases starts -->
 
 <!-- recent_releases ends -->
