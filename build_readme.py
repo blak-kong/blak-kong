@@ -157,7 +157,7 @@ if __name__ == "__main__":
         project_releases_content, "recent_releases", project_releases_md
     )
     project_releases_content = replace_chunk(
-        project_releases_content, "release_count", str(len(releases)), inline=True
+        project_releases_content, "release_count","\n" + str(len(releases)) + "\n", inline=True
     )
     project_releases.open("w").write(project_releases_content)
 
