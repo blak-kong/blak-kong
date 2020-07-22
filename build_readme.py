@@ -118,6 +118,7 @@ def fetch_douban():
 
 def fetch_blog():
     entries = feedparser.parse("https://www.lzwlook.fun/atom.xml")["entries"]
+    print(entries)
     return [
         {
             "title": entry["title"],
