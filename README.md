@@ -25,7 +25,7 @@
 <!-- code_time starts -->
 
 ```text
-你好！
+你好，世界！
 ```
 
 <!-- code_time ends -->
