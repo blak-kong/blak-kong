@@ -101,7 +101,7 @@ def fetch_releases(oauth_token):
 
 def fetch_code_time():
     return httpx.get(
-        "https://gist.githubusercontent.com/tw93/7854aac61f991ef4e7ae7b8440e4fdc6/raw/"
+        "https://gist.githubusercontent.com/blak-kong"
     )
 
 def fetch_douban():
@@ -117,7 +117,7 @@ def fetch_douban():
 
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://tw93.github.io/feed.xml")["entries"]
+    entries = feedparser.parse("https://www.lzwlook.fun/atom.xml")["entries"]
     return [
         {
             "title": entry["title"],
