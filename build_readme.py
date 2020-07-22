@@ -118,12 +118,11 @@ def fetch_douban():
 
 def fetch_blog():
     entries = feedparser.parse("https://www.lzwlook.fun/atom.xml")["entries"]
-    print(entries)
     return [
         {
             "title": entry["title"],
             "url": entry["link"].split("#")[0],
-            "published": formatGMTime(entry["published"]),
+            "published": formatGMTime(entry["published"])
         }
         for entry in entries
     ]
@@ -175,9 +174,9 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
 
     blogs = fetch_blog()[:5]
-    entries_md = "\n".join(
+    blogs_md = "\n".join(
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in blogs]
     )
-    rewritten = replace_chunk(rewritten, "blog", entries_md)
+    rewritten = replace_chunk(rewritten, "blog", blogs_md)
 
     readme.open("w").write(rewritten)
