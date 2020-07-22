@@ -101,11 +101,11 @@ def fetch_releases(oauth_token):
 
 def fetch_code_time():
     return httpx.get(
-        "https://gist.githubusercontent.com/blak-kong"
+        "https://gist.githubusercontent.com/blak-kong/a33ab2dec71825d648e84e9889008797/raw/"
     )
 
 def fetch_douban():
-    entries = feedparser.parse("https://www.douban.com/feed/people/tangwei93/interests")["entries"]
+    entries = feedparser.parse("https://www.douban.com/feed/people/blak-kong/interests")["entries"]
     return [
         {
             "title": item["title"],
