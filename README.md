@@ -35,6 +35,7 @@
 
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/34979493/' target='_blank'>看过高达创形者 Re:RISE 第二季</a> - 2020-07-22
 * <a href='http://movie.douban.com/subject/2377630/' target='_blank'>看过真实之泪</a> - 2020-07-22
 <!-- douban ends -->
 
