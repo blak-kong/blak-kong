@@ -121,8 +121,7 @@ def fetch_blog():
     return [
         {
             "title": entry["title"],
-            "url": entry["link"].split("#")[0],
-            "published": formatGMTime(entry["published"])
+            "url": entry["link"].split("#")[0]
         }
         for entry in entries
     ]
@@ -175,9 +174,8 @@ if __name__ == "__main__":
 
     blogs = fetch_blog()[:5]
     blogs_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in blogs]
+        ["* <a href='{url}' target='_blank'>{title}</a>".format(**entry) for entry in blogs]
     )
     rewritten = replace_chunk(rewritten, "blog", blogs_md)
 
     readme.open("w").write(rewritten)
- 
