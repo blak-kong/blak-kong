@@ -21,11 +21,11 @@
 
 <!-- blog starts -->
 
+- <a href='https://www.lzwlook.fun/2020/07/24/%E3%80%90Github%E3%80%91Github%20Actions%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/' target='_blank'>【Github】Github Actions 持续集成</a>
 - <a href='https://www.lzwlook.fun/2020/05/29/%E3%80%90java%E3%80%91%E5%AE%89%E8%A3%85idea%E5%92%8Cjdk/' target='_blank'>【java】安装 idea 和 jdk</a>
 - <a href='https://www.lzwlook.fun/2020/05/29/%E3%80%90jenkins%E3%80%91centos7%E5%AE%89%E8%A3%85jenkins/' target='_blank'>【jenkins】centos7 安装 jenkins</a>
 - <a href='https://www.lzwlook.fun/2020/05/27/%E3%80%90jest%E3%80%91%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E5%85%A5%E9%97%A8/' target='_blank'>【jest】单元测试入门</a>
 - <a href='https://www.lzwlook.fun/2020/05/14/%E3%80%90nestjs%E3%80%91%E6%8E%A7%E5%88%B6%E5%99%A8%E5%92%8C%E8%B7%AF%E7%94%B1/' target='_blank'>【nestjs】控制器和路由</a>
-- <a href='https://www.lzwlook.fun/2020/05/14/%E3%80%90nestjs%E3%80%91%E5%88%9B%E5%BB%BAnestjs%E9%A1%B9%E7%9B%AE/' target='_blank'>【nestjs】创建 nestjs 项目</a>
 <!-- blog ends -->
 
 </td>
