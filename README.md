@@ -20,7 +20,6 @@
 <td valign="top" width="50%">
 
 <!-- blog starts -->
-* <a href='https://www.lzwlook.fun/2020/10/11/%E3%80%90%E7%94%9F%E6%B4%BB%E3%80%91%E5%B7%A5%E4%BD%9C%E7%9A%84%E7%9C%9F%E4%B9%89/' target='_blank'>【生活】工作的真义</a>
 * <a href='https://www.lzwlook.fun/2020/09/20/%E3%80%90java%E3%80%91%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BB%8B%E7%BB%8D/' target='_blank'>【java】开发环境安装与介绍</a>
 * <a href='https://www.lzwlook.fun/2020/08/04/%E3%80%90npm%E3%80%91node-sass%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98/' target='_blank'>【npm】node-sass下载失败问题</a>
 * <a href='https://www.lzwlook.fun/2020/07/24/%E3%80%90Github%E3%80%91Github%20Actions%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/' target='_blank'>【Github】Github Actions持续集成</a>
